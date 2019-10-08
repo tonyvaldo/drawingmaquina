@@ -1,8 +1,17 @@
-html, body {
+html {
   margin: 0;
   padding: 0;
 }
+
+body {
+  margin: 100px auto 0 auto;
+  width: 80%;
+  text-align: center;
+  font-family: cursive; font-size: 18px; font-style: italic; font-variant: normal;
+}
+
 canvas {
+  margin: 100px auto 0 auto;
   display: block;
-  border: 5px, solid black;
+  border: 5px solid black;
 }
