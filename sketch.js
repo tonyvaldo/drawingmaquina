@@ -3,9 +3,9 @@
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  noStroke();
-  rectMode(CENTER);
-  // createCanvas(600, 600);
+  // noStroke();
+  // rectMode(CENTER);
+  // createCanvas(1000, 1000);
   // background(220, 550, 250);
   background(255);
 
@@ -27,25 +27,25 @@ function draw() {
   // line(mouseX, mouseY, pmouseX, pmouseY);
 
 
-  for (var i = 0; i < height + 40; i += 40) {
-      // draw one line of 20 rectangles across the x-axis
-      for (var j = 0; j < width + 40; j += 40) {
-        var lightBlue = color(30,139,195);
-        var range = 80;
-        var d = dist(mouseX,mouseY,i,j);
-        var r = map(d,0,25,0,20);
+  for (let i = 0; i < height + 40; i += 40) {
+      // draw one line of 40 rectangles
+      for (let j = 0; j < width + 40; j += 40) {
+        let lightBlue = color(213, 161, 73);
+        let range = 70;
+        let d = dist(mouseX,mouseY,i,j);
+        let r = map(d,0,25,0,20);
         //var r = map(d,0,mouseX,0,20);
         stroke(0, 0, 255);
         if (i > (mouseX - range) && i < (mouseX + range) && j > (mouseY - range) && j < (mouseY + range)) {
           noStroke();
           //fill(255);
-          rect(i,j,40,40);
+          ellipse(i,j,40,40);
           stroke(lightBlue);
-          rect(i, j, r, r);
+          ellipse(i, j, r, r);
         } else {
           noFill();
           stroke(lightBlue);
-          rect(i, j, 40, 40);
+          ellipse(i, j, 40, 40);
           //print("HERE");
         }
       }
