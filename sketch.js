@@ -18,7 +18,7 @@ function draw() {
   // background(220, 550, 250, 5);
   strokeWeight(1);
 
-
+//vvv regerence for stroke draw vvv//
   // noiseOffset += 0.01;
   // strokeWidth = noise(noiseOffset) * 55;
 
@@ -78,10 +78,10 @@ function keyTyped() {
 
 }
 
-function mousePressed() {
-  array = [];
-  backgroundColor = 255;
-}
+// function mousePressed() {
+//   array = [];
+//   backgroundColor = 255;
+// }
 
 // function drawGrid(){
 // numCells = 20;
