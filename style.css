@@ -5,11 +5,11 @@ html {
 
 body {
   margin: 100px auto 0 auto;
-  width: 80%;
-  text-align: center;
+  width: 100%;
+  text-align: left;
   font-family: cursive;
-  font-size: 18px;
-  font-style: italic;
+  font-size: 25px;
+  /* font-style: italic; */
   font-variant: normal;
 }
 
