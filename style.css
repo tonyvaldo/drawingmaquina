@@ -27,7 +27,7 @@ container {
 canvas {
   margin: 0px auto 0 auto;
   display: block;
-  border: 2px solid black;
+  border: 0px;
   position: relative;
   top: 0;
   left: 0;
