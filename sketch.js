@@ -12,9 +12,8 @@ drawingbook = loadImage('images/drawingbook.png')
 }
 
 function setup() {
-  bg = loadImage('images/drawingbook.png');
-  let cnv = createCanvas(800, 600);
-  // cnv.parent('container')
+  createCanvas(800, 600);
+  image(drawingbook, 0,0, width, height);
 noStroke();
 imageMode(CENTER);
 
