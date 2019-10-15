@@ -30,7 +30,7 @@ function mousePressed(){
   // for (let i = 1; i < stamp.length; i++){
   //   stamp[i].clicked(mouseX, mouseY);
 
-  image(img, mouseX, mouseY, 50, 50);
+  image(img, mouseX, mouseY, 25, 25);
   }
 
 
