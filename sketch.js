@@ -1,12 +1,12 @@
 let array = [];
-let wink;
 let stamp = [];
 let img;
 
 function preload() {
 
-img = loadImage('images/stamp1.png')
+img = loadImage('images/stamp2.png')
 }
+
 
 function setup() {
   let cnv = createCanvas(800, 600);
@@ -32,12 +32,13 @@ function mousePressed(){
 
 
 
-// function keyTyped() {
+function keyTyped() {
 
-  // if (key === 's') {
-  //   //save this image
-  //   saveCanvas('filename', 'png');
-  // } else if (key === 'd') {
+  if (key === 's') {
+    //save this image
+    saveCanvas('filename', 'png');
+  }
+  // else if (key === 'd') {
   //   // display image
 
 
@@ -50,5 +51,5 @@ function mousePressed(){
 // }
 //
 // // return false;
-// }
+}
 // }
