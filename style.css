@@ -10,6 +10,16 @@ body {
   font-family: cursive; font-size: 18px; font-style: italic; font-variant: normal;
 }
 
+h1 {
+  text-shadow: 3px 1px white;
+}
+h3 {
+  text-shadow: 1px 1px pink;
+}
+
+p {
+  text-shadow: 1px 1px yellow;
+}
 
 container {
 	text-align: center;
