@@ -10,8 +10,21 @@ body {
   font-family: cursive; font-size: 18px; font-style: italic; font-variant: normal;
 }
 
+
+container {
+	text-align: center;
+}
 canvas {
-  margin: 100px auto 0 auto;
+  margin: 0px auto 0 auto;
   display: block;
-  border: 5px solid black;
+  border: 2px solid black;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+img {
+  position: center;
+  top: 0;
+  left: 0;
 }
