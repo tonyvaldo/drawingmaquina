@@ -1,16 +1,20 @@
 let array = [];
 let stamp = [];
 let img;
+let drawingbook;
+
 
 function preload() {
 
 img = loadImage('images/stamp2.png')
+drawingbook = loadImage('images/drawingbook.png')
+
 }
 
-
 function setup() {
-  let cnv = createCanvas(800, 600);
-  cnv.parent('container')
+  bg = loadImage('images/drawingbook.png');
+  let cnv = createCanvas(700, 600);
+  // cnv.parent('container')
 noStroke();
 imageMode(CENTER);
 
@@ -19,7 +23,8 @@ imageMode(CENTER);
 
 
 function draw() {
-
+imageMode(CENTER);
+image (drawingbook, width/2, height/2, width, height);
 }
 
 
