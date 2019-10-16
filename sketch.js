@@ -6,7 +6,7 @@ let drawingbook;
 
 function preload() {
 
-img = loadImage('images/stamp2.png')
+img = loadImage('images/stamp4.png')
 drawingbook = loadImage('images/drawingbook.png')
 
 }
